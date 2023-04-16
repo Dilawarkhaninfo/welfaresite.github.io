@@ -1,0 +1,91 @@
+:root{
+    --main-color: #f7f1f1;
+    --color-black: #000000;
+    --bg-gray: #075A61;
+    --color-yellow: #efc109;
+    --bg-red: rgb(205, 35, 35);
+    --fs-10: 5rem;
+    --fs-8: 3.5rem;
+    --fs-7: 1.5rem;
+}
+
+.h10{
+    font-size: var(--fs-10) !important;
+    font-weight: bold;
+}
+.h8{
+    color: var(--main-color);
+    font-size: var(--fs-8) !important;
+    font-weight: bold;
+}
+.h7{
+    font-size: var(--fs-7) !important;
+    font-weight: bold;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-top{
+    background-color: var(--bg-gray) !important;
+}
+
+a{
+    text-decoration: none !important;
+    color: var(--main-color) !important;
+}
+
+.nav-link{
+    color: var(--color-black)!important;  
+    font-weight: bold;
+}
+.nav-link.active,.nav-link:hover{
+    color: var(--color-yellow) !important;
+}
+
+.dropdown-menu,.dropdown-item:hover {
+    background-color: var(--bg-red) !important;  
+}
+.dropdown-item:hover {
+    color: var(--color-black)!important;  
+}
+
+#counts{
+background-color: #09494F;
+background-image: linear-gradient(rgba(231, 193, 57, 0.616), rgba(229, 86, 86, 0.827)) ,url(/assets/images/fact-counter-style1-bg.jpeg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#join{
+background-color: #09494F;
+background-image: linear-gradient(rgba(38, 35, 24, 0.616), rgba(93, 48, 48, 0.827)) ,url(/assets/images/slogan-style1-bg.jpeg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+element.style {
+    width: 200px !important;
+    margin-right: 37px !important;
+}
+
+
+#about-hero, #causes-hero, #event-hero, #blog-hero, #pages-hero, #contact-hero{
+background-color: #09494F;
+background-image: linear-gradient(rgba(38, 35, 24, 0.616), rgba(42, 26, 26, 0.827)) ,url(/assets/images/breadcrumb-1.jpeg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+@media screen and ( max-width: 992px) { 
+    .donate-btn,.top-info{
+        display: none !important;
+    }
+    
+}
